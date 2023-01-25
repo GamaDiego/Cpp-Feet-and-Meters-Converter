@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FE04756129006C86003988FC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE04756029006C86003988FC /* main.cpp */; };
+		FE09335E290087E000371E70 /* Galvan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE09335C290087E000371E70 /* Galvan.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		FE04755D29006C86003988FC /* Feet and Meters Converter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Feet and Meters Converter"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE04756029006C86003988FC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FE09335C290087E000371E70 /* Galvan.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Galvan.cpp; sourceTree = "<group>"; };
+		FE09335D290087E000371E70 /* Galvan.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Galvan.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,8 @@
 		FE04755429006C86003988FC = {
 			isa = PBXGroup;
 			children = (
+				FE09335C290087E000371E70 /* Galvan.cpp */,
+				FE09335D290087E000371E70 /* Galvan.hpp */,
 				FE04755F29006C86003988FC /* Feet and Meters Converter */,
 				FE04755E29006C86003988FC /* Products */,
 			);
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE09335E290087E000371E70 /* Galvan.cpp in Sources */,
 				FE04756129006C86003988FC /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
